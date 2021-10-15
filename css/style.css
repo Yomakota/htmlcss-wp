@@ -24,6 +24,12 @@ html{
     margin: 0 auto;
 }
 
+.layover{
+    width:100%;
+    height:100%;
+    background-color: rgba(black, black, black, 0,5);
+}
+
 nav{
     margin: 10px 0;
 }
@@ -52,19 +58,20 @@ section {
     color: white;
 }
 
-.section_menu {
+/* .section_menu {
     background-color: blue;
-}
+} */
 
 .header_main {
-    background-color: lightblue;
-    height: 50px;
     margin-bottom: 10px;
 }
 
+.header_main > h3{
+    color: lightgrey;
+}
+
 .menu {
-    height: 330px;
-    background-color: lightblue;
+    /* height: 330px; */
     float: left;
     margin-bottom: 10px;
 }
@@ -72,17 +79,26 @@ section {
 .menu.right, 
 .menu.left {
     width: 25%;
+    height: 200px;
 }
 
 .menu.center {
+    height: 200px;
     width: calc( 50% - 20px);
     margin: 0 10px;
 }
 
-footer {
+.menu img{
+    object-fit: cover;
+    height:200px;
+    width: 100%;
+}
+
+
+/* footer {
     background-color: purple;
     height: 40px;
-}
+} */
 
 
 
