@@ -121,3 +121,6 @@ footer::after {
     color: red;
 }
 
+p {
+    margin-top: 20px;
+}
