@@ -25,8 +25,10 @@ html{
     margin: 0 auto;
 }
 
+
 li {
     list-style: none;
+    display: inline;
 }
 
 .layover{
